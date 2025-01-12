@@ -16,3 +16,6 @@ See Dockerfile for what is built.
 In case you want to run and attach to the container, you can use the shell.sh script.
 
 
+NOTE:  If running on a windows machine do the following:
+run in a Bash console
+Execute Dos2Unix over the files so that the line ending (LF) are in place rather than windows-style which use (CRLF)
